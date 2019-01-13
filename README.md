@@ -1,6 +1,6 @@
 # 2018ロボットシステム学課題2
 ## 動作説明
- ROSのノードで指令を送りLED点滅させ,ウェブサーバに指令を表示させる <p> 
+ ROSのノードで指令を送りLEDを点滅させ,ウェブサーバに現在の指令を表示させる <p> 
 動画 
 
 ### 動作環境
@@ -36,3 +36,22 @@ $ catkin_create_pkg mypkg rospy
 $ cd mypkg/
 $ cp -r /home/username/robosyskadai2/* .
 ```
+### 実行方法
+* 立ち上げ
+```
+$ roslaunch mypkg mypkg.launch 
+```
+* 点灯，消灯，点滅
+```
+$ cd
+$ echo on > switch.txt
+$ echo off > switch.txt
+$ echo 適当な文字　> switch.txt
+```
+* 手元のPCのブラウザで`http://ラズパイのIPアドレス:8000`で現在の指令を確認できる
+### 参考文献
+* ロボットシステム学2018第13回   
+https://github.com/ryuichiueda/robosys2018/blob/master/13.md  
+
+
+
