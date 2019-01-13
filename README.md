@@ -2,7 +2,7 @@
 ## 動作説明
  ROSのノードで指令を送りLEDを点滅させ,ウェブサーバに現在の指令を表示させる <p> 
 動画 
-
+https://m.youtube.com/watch?v=ucs8MQCBmdk
 ### 動作環境
 
 |||
