@@ -18,7 +18,7 @@ def cb(message):
 		time.sleep(0.5)
 				
 if __name__=='__main__':
-	led_pin = 2
+	led_pin = 25
 	wiringpi.wiringPiSetupSys()
 	subprocess.check_call('gpio export 2 out',shell=True)
 	wiringpi.pinMode( led_pin, 1 )
