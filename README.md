@@ -29,7 +29,7 @@ $ cd ~/catkin_ws
 $ catkin_make
 $ source ~/.bashrc
 ```
-* パッケージの生成しmypkg内にcloneしてきたscriptsとlanchを入れる
+* パッケージの生成しmypkg内にcloneしてきたscriptsとlaunchを入れる
 ```
 $ cd ~/catkin_ws/src
 $ catkin_create_pkg mypkg rospy
@@ -49,6 +49,7 @@ $ echo off > switch.txt
 $ echo 適当な文字　> switch.txt
 ```
 * 手元のPCのブラウザで`http://ラズパイのIPアドレス:8000`で現在の指令を確認できる
+![](./webserver.PNG)
 ### 参考文献
 * ロボットシステム学2018第13回   
 https://github.com/ryuichiueda/robosys2018/blob/master/13.md  
